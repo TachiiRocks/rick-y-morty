@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/acb52b9387.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./nav.css">
+    <title>myPage</title>
+    <script src="./home.js"></script>
+</head>
+<body>
+    <nav class="menu">
+        <label class="menu__logo">Tachi</label>
+        <ul class="menu__items">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li class="btn"><a href="#aboutme">Sobre mi</a></li>
+            <li class="btn1"><a href="#proyectos">Proyectos</a></li>
+            <li class="btn2"><a href="#contacto">Contacto</a></li>
+        </ul>
+        <span class="btn_menu">
+        <i class="fa-solid fa-bars"></i>
+        </span>
+    </nav>
+    <div class="cv">
+        <div class="info">
+            <div class="imageme">
+                <img class="imageme__img" src="./img/yop.jpg">
+            </div>
+            <section class="aboutme" id="aboutme">  
+                <h3>Sobre mí:</h3> 
+                <p>
+                    Soy una persona positiva, vital y me gusta aprender cosas nuevas. En mi tiempo libre
+                    juego al futbol y hago deporte. 
+                </p>
+                <p>
+                    Cursé y finalicé un Bootcamp en Skylab Coders Academy (Barcelona). En él, he
+                    obtenido conocimientos de tecnologías que utilizo para realizar proyectos personales.
+                    En estos momentos me encuentro buscando una oportunidad laboral que me permita
+                    profundizar en mis habilidades.
+                </p>
+                <p>
+                    Actualmente resido en Barcelona pero tengo disponibilidad para desplazarme a vivir a
+                    cualquier punto geográfico.
+                </p>
+            </section>
+        </div>
+        <section class="proyectos" id="proyectos">
+            <h3>Proyectos:</h3>
+            <div class="info">
+                <div class="proyectos__ejemplo">
+                    <h4 class="proyectos__title-tt">TimeTo</h4>
+                    <a title="timeto" href="https://timeto.surge.sh">
+                        <img src="./img/timeto.png">
+                    </a>
+                    <p>Sitio Web en el que se gestionan eventos con la finalidad de conocer gente nueva.</p>
+                </div>
+                <div class="proyectos__ejemplo">
+                    <h4 class="proyectos__title">Calendario</h4>
+                    <a title="Calendario" href="./MiCalendario/index.html">
+                        <img src="./img/calendario.png">
+                    </a>
+                    <p>Calendario dinámico con la posibilidad de ser implementado en una página</p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="proyectos__ejemplo">
+                    <h4 class="proyectos__title">Modelo de página</h4>
+                    <a title="Calendario" href="./LaderPage/home.html">
+                        <img src="./img/landing.png">
+                    </a>
+                    <p>Página de prueba que puede ser rellenada con información para ser útil</p>
+                </div>
+                <div class="proyectos__ejemplo">
+                    <h4 class="proyectos__title">Pasapalabra</h4>
+                    <a title="Calendario" href="./Pasapalabra/index.html">
+                        <img src="./img/pasapalabra.png">
+                    </a>
+                    <p>Juego en el cual tenemos 27 preguntas y deberemos acertar el maximo numero de ellas
+                        con la posibilidad de contestar una pregunta mas adelante</p>
+                </div>
+            </div>
+            
+            <div class="proyectos__ejemplo">
+                <h4 class="proyectos__title">Bingo</h4>
+                <a title="Calendario" href="./Bingo/index.html">
+                    <img src="./img/bingo.png">
+                </a>
+                <p>Juego en el cual deberemos ir sacando numeros hasta que se complete nuestro cartón</p>
+            </div>
+        </section>
+        <section class="contacto" id="contacto">
+            <h3>Contacto:</h3>
+            <div class="contacto__div">
+                <i class="fa-regular fa-envelope contacto__icon"></i>
+                <p>jrfluna@gmail.com</p>
+            </div>
+            <div class="contacto__div">
+                <a href="https://www.linkedin.com/in/jose-ramon-fernandez-luna/">
+                    <i class="fa-brands fa-linkedin-in contacto__icon"></i>
+                </a>
+                <a class="contacto__div-info" href="https://www.linkedin.com/in/jose-ramon-fernandez-luna/">Jose Ramon Fernandez Luna</a>
+            </div>
+            <div class="contacto__div">
+                <a href="https://github.com/TachiiRocks">
+                    <i class="fa-brands fa-github contacto__icon"></i>
+                </a>
+                <a class="contacto__div-info" href="https://github.com/TachiiRocks">github.com/TachiiRocks</a>
+            </div>
+            <p class="contacto__copy">©Copyright 2022 Jose Ramon Fernandez Luna</p>
+        </section>
+    </div>
+</body>
+</html>

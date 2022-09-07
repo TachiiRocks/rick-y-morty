@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 82.5%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;  
+    background-color: #0FAA4E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bingo {
+    width: 65rem;
+    height: 52rem;
+    background-color: #222227;
+}
+
+.bingo h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff
+}
+
+.numeros {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+
+.numeros div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(59.2rem/4);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.play {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 75px;
+}
+
+.boton {
+    height: 45px;
+    width: 130px;
+    border: 1px solid #222227;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.numero-random {
+    color: #fff;
+    font-size: 35px;
+}

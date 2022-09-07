@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.imageme {
+    margin: 0;
+    margin-bottom: -4px;
+}
+
+.imageme__img {
+    width: 100%;
+    margin-top: 65px;
+}
+
+.aboutme {
+    margin-top: 0;
+    padding: 40px;
+    background-color:#0d0502;
+}
+
+.aboutme h3 {
+    font-size: 50px;
+    color:#ecf8d4;
+    background-color: #85685a;
+    width: 270px;
+    text-align: center;
+    border-radius: 40px 0 40px 0;
+}
+
+.aboutme p {
+    font-size: large;
+    color:#ecf8d4;
+    padding-top: 70px;
+}
+
+.proyectos {
+    padding: 40px;
+    background-color: #ecf8d4;;
+}
+
+.proyectos h3 {
+    font-size: 50px;
+    color:#0d0502; 
+    background-color: #85685a;
+    width: 270px;
+    text-align: center;
+    border-radius: 40px 0 40px 0;
+}
+
+.proyectos__btn-timeto {
+    font-size: 34rem;
+    color: #0d0502;
+}
+
+.proyectos__title {
+    font-size: 5rem;
+    color:#0d0502; 
+    text-align: center;
+    margin: 0;
+    padding-top: 180px;
+}
+
+.proyectos__title-tt {
+    font-size: 5rem;
+    color:#0d0502; 
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.proyectos__ejemplo p {
+    font-size: large;
+    color: #0d0502;
+    text-align: center;
+} 
+
+.proyectos__ejemplo a {
+    width: 100%;
+}
+
+.proyectos__ejemplo img {
+    width: 100%;
+    border: 1px solid #ecf8d4;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contacto {
+    padding: 40px;
+    background-color: #0d0502;
+}
+
+.contacto h3 {
+    font-size: 50px;
+    color: #ecf8d4; 
+    background-color: #85685a;
+    width: 270px;
+    text-align: center;
+    border-radius: 40px 0 40px 0;
+}
+
+.contacto__div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.contacto__icon {
+    color: #ecf8d4;
+    font-size: 100px;
+}
+
+.contacto__div p {
+    color: #ecf8d4;
+    font-size: 25px;
+}
+
+.contacto__div-info {
+    color: #ecf8d4;
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.contacto__copy {
+    color: #ecf8d4;
+    display: flex;
+    justify-content: center;
+    margin-top: 115px;
+    margin-bottom: -36px;
+}
+
+@media (min-width: 700px){
+    .aboutme p {
+        font-size: x-large;
+    }
+
+    .proyectos__ejemplo p {
+        font-size: x-large;
+    }    
+}
+
+@media (min-width: 1400px){
+    .imageme__img {
+        height: -webkit-fill-available;
+    }
+
+    .info {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .aboutme {
+        width: 55%;
+        margin-top:65px;
+    }
+
+    .proyectos__ejemplo{
+        margin-top: 100px;
+        margin-left: 0;
+    }
+
+
+    .proyectos__ejemplo a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .proyectos__ejemplo img {
+        width: 75%;
+        border: 1px solid #ecf8d4;
+        border-radius: 5px;
+    }
+
+    .proyectos__title {
+        padding-top: 0px;
+    }
+    
+    .proyectos__title-tt {
+        padding-top: 0px;
+    }
+
+    .proyectos__ejemplo p {
+        font-size: large;
+    }  
+
+}

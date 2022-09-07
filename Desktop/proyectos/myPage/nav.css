@@ -1,0 +1,122 @@
+.menu {
+    background-color: #0d0502;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px rgba(0,0,0,.6);
+    position: fixed;
+    top: 0;  
+}
+
+.menu__logo {
+    color: #ecf8d4;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+.menu__items {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu__items li {
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.menu__items li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: #ecf8d4;
+}
+
+.menu__items li:hover, li.active {
+    background-color: rgba(0,0,0,.3);
+    transition: .4s;
+}
+
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: #ecf8d4;
+    cursor: pointer;
+    display: none;
+}
+
+ul.show {
+    top: 65px;
+}
+
+
+@media screen and (max-width: 952px){
+    .logo {
+        font-size: 30px;
+        padding-left: 35px;
+    }
+    .menu__items li a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .menu {
+        height: 65px;
+    }
+    .btn_menu {
+        display: inline-flex;
+    }
+    .menu__items {
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: #414141;
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .menu__items li {
+        margin: 30px 75px 0 0;
+        line-height: 30px;
+    }
+    .menu__items li:hover {
+        background: none;
+    }
+    .menu__items li a {
+       font-size: 20px;
+       color: #ecf8d4;
+       font-weight: bold;
+    }
+    .menu__items li a:hover {
+        color: #ecf8d4;
+    }
+    .menu__logo {
+        font-size: 25px;
+        padding-left: 35px;
+
+    }
+    .active {
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+
+    @media screen and (max-width: 750px) and (orientation: landscape){
+        .menu__items li {
+            margin: 5px 0 0 0; 
+        }
+        .menu__items {
+            overflow: scroll;
+            height: calc(100% - 65px);
+        }
+    }
+}
+

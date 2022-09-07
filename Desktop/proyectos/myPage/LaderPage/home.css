@@ -1,0 +1,321 @@
+html {
+    font-size: 62,5%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.page__img{
+    width: 100%;
+    height: 40rem;
+    padding-top: 15rem;
+}
+
+.separation {
+    color: black
+}
+
+
+.container {
+    width: 70%;
+    margin-top: 2rem;
+    background-color:#e9ecef ;
+    display: flex;
+    position: absolute;
+}
+
+.nav {
+    width: 25%;
+    background-color: #212529;
+}
+
+.logo {
+    color: #fff;
+    font-size: 80px;
+    margin-top: 60px;
+}
+
+.info-logo {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-logo p {
+    margin-top: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons i {
+    padding: 4px;
+}
+
+hr {
+    width: 50%;
+    margin-top: 35px;
+    color: #000;
+}
+
+.list {
+    list-style: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px
+}
+
+.list li {
+    padding: 8px;
+    margin-left: 28px;
+    color: #fff;
+}
+
+.music__p {
+    color: #fff;
+    padding: 20px;
+    margin-left: 37px;
+    
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.card__info {
+    display: flex;
+}
+
+.card__info-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 55px;
+}
+
+.card__info-content {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__info-content p {
+    margin-top: -5px;
+}
+
+.titlep {
+    color: white;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.infop {
+    color: white;
+    margin-left: 15px;
+    font-size: 7px;
+}
+
+.cardList p {
+    margin-left: 50px;
+    color: #fff;
+}
+
+.list2 {
+    margin-left: 30px;
+}
+
+.list2 li{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.tags {
+    margin-left: 50px;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.tags__button {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-left: -14px;
+    padding-top: 3px;
+}
+
+.tags__button button {
+    background-color: rgba(0,0,0,0.2);
+    width: 62px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: #fff;
+}
+
+.input-search {
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.input {
+    height: 25px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    border: 1px solid #212529;
+    color: white;
+}
+
+.input-button{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(7, 155, 7);
+    border: 1px solid rgb(7, 155, 7);;
+    border-radius: 2px;
+}
+
+.gallery {
+    margin-left: 47px;
+    margin-top: 40px;
+    color: #fff;
+
+}
+
+.gallery__section img{
+    height: 50px;
+    width: 60px;
+}
+
+.info {
+    margin-left: 47px;
+    margin-top: 40px;
+    color: #fff;
+
+}
+
+.selector {
+    display: flex;
+    flex-direction: column;  
+    margin-left: 47px;
+    padding-top: 10px;
+}
+
+.selector input{
+    width: 65%;
+    height: 25px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+    border: 1px solid #212529;
+    color: white;
+}
+
+.selector button {
+    width: 67%;
+    height: 25px;
+    margin-top: 1px;
+    border: 1px solid #212529;
+    border-radius: 3px;
+    background-color: rgb(7, 155, 7);
+}
+
+.footerp {
+    margin-top: 1550px;
+    margin-bottom: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.home {
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+}
+
+.header__img{
+    height: 35rem;
+    width: 100%;
+}
+
+.information  {
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 65%;
+}
+
+.information__tag {
+    width: 40px;
+    background-color: blue;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.information__tag p {
+    display: flex;
+    justify-content: center;
+}
+
+.information__img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.information__img img {
+    width: 100%;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials__div-fb {
+    background-color: #3b5998;
+    border: 1px solid #3b5998;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items:  center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.socials__div-tw {
+    background-color: rgb(29, 155, 240);;
+    border: 1px solid rgb(29, 155, 240);;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    align-items:  center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.home__footer {
+    height: 20rem;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.home__footer img {
+    height: 20rem;
+    width: 100%;
+}
+
+
+
