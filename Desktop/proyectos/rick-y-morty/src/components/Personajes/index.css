@@ -1,0 +1,56 @@
+.personajes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: -50px;
+    background-color: rgba(0,0,0,.1);
+    margin-bottom: 50px;
+}
+
+.personajes h3 {
+    font-size: 3rem;
+}
+
+.personajes img {
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.personajes__carta {
+    display: flex;
+    flex-direction: column;
+}
+
+.personajes__carta-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 40px;   
+}
+
+.personajes__carta-info p{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.personajes__button {
+    width: 75%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #ade8f0;
+    border-radius: 3px;
+    font-size: 2rem;
+    background-color: #597380;
+    cursor: pointer;
+    color: #ade8f0
+}
+
+.personajes__button:hover {
+    background-color: rgba(0,0,0,.1);
+}

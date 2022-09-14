@@ -1,0 +1,32 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10%;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.home__carta {
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid #ade8f0;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home__carta img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.home__carta h4 {
+    font-size: 20px;
+}
+
+.home__carta:hover {
+    background-color: rgba(0,0,0,.1);
+    width: 100%
+}
