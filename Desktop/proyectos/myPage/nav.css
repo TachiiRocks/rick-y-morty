@@ -38,11 +38,6 @@
     color: #ecf8d4;
 }
 
-.menu__items li:hover, li.active {
-    background-color: rgba(0,0,0,.3);
-    transition: .4s;
-}
-
 .btn_menu{
     margin-right: 30px;
     font-size: 25px;
@@ -92,9 +87,9 @@ ul.show {
         background: none;
     }
     .menu__items li a {
-       font-size: 20px;
-       color: #ecf8d4;
-       font-weight: bold;
+        font-size: 20px;
+        color: #ecf8d4;
+        font-weight: bold;
     }
     .menu__items li a:hover {
         color: #ecf8d4;
